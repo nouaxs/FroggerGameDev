@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5535f06defa76489ba245a7ff9c47fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 10
+  stepsInterval: 0.2
 --- !u!50 &5167346864201191914
 Rigidbody2D:
   serializedVersion: 4
