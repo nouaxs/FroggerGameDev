@@ -9,7 +9,7 @@ using UnityEngine.UIElements;
 public class PlayerMovementController : MonoBehaviour
 {
     private PlayerInputActions playerInputActions;
-    [SerializeField] private Transform spriteTansform;
+    [SerializeField] private Transform spriteTransform;
     private Transform playerTransform;
 
 
@@ -34,7 +34,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             Vector2 inputVect = playerInputActions.Player.Movement.ReadValue<Vector2>();
             playerTransform.Translate(inputVect.x, inputVect.y, 0);
-            Quaternion charRotation = spriteTansform.rotation;
+            Quaternion charRotation = spriteTransform.rotation;
             if (inputVect.x > 0)
             {
                 charRotation = Quaternion.Euler(0f, 0f, -90f);
@@ -52,7 +52,10 @@ public class PlayerMovementController : MonoBehaviour
             {
                 charRotation = Quaternion.Euler(0f, 0f, 180f);
             }
-            spriteTansform.rotation = charRotation;
+            spriteTransform.rotation = charRotation;
         }
     }
 }
+
+
+
