@@ -13,8 +13,8 @@ TagManager:
   - Water
   - UI
   - Background
-  - Cars
-  - Logs
+  - 
+  - 
   - 
   - 
   - 
@@ -39,7 +39,7 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
+  - name: 
     uniqueID: 3865450857
     locked: 0
   - name: Default
@@ -50,4 +50,7 @@ TagManager:
     locked: 0
   - name: Cars
     uniqueID: 4038794567
+    locked: 0
+  - name: 
+    uniqueID: 1423767391
     locked: 0

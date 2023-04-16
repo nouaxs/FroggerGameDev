@@ -4,6 +4,10 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 
+
+/**
+ * This class provides an implementation of the car movement behaviour
+ */
 public class CarMovement : MonoBehaviour
 {
 

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9059348163880449}
   - component: {fileID: 1786533692}
   - component: {fileID: 7954671589337143236}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Frog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,6 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f635670efefa404e8ebe68852d864b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
 --- !u!1 &7965537613416077405
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +170,7 @@ GameObject:
   - component: {fileID: 6260148901675766832}
   - component: {fileID: 1288706324061059715}
   - component: {fileID: 589785572}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,3 +254,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f635670efefa404e8ebe68852d864b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
